@@ -1,0 +1,6 @@
+# kitti_yolo/data.yaml
+train: data/Kitti_for_yolo/images/train
+val: data/Kitti_for_yolo/images/val
+
+nc: 9  # число классов
+names: ['Машина', 'Велосипедист', 'Не имеет значения', 'Другое', 'Пешеход', 'Сидящая персона', 'Трамвай', 'Грузовик', 'Фургон']
